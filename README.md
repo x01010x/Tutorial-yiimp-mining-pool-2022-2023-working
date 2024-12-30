@@ -30,11 +30,9 @@ Bitcoin Address QR Code            |  Ethereum Address QR Code         |  Liteco
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### 1 - install git, curl, make, and gcc
 ```
-sudo apt install git
-sudo apt install curl
-sudo apt install make
-sudo apt update
-sudo apt install build-essential
+sudo apt update -y
+sudo apt install git curl make build-essential -y
+sudo apt update -y
 ```
 #### 1.2 - Use no-ip for domain (optional)
 ```
