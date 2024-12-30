@@ -1,3 +1,9 @@
+sudo ls /etc/nginx/sites-enabled/
+
+rm: cannot remove '/etc/nginx/sites-enabled/default*': No such file or directory
+
+
+
 # Tutorial-yiimp-mining-pool-2022-2023-working
 Tutorial yiimp 2022 working
 ###### Discord: https://discord.gg/K5KVvgm7v7
