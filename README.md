@@ -3,15 +3,10 @@ sudo ls /etc/nginx/sites-enabled/
 rm: cannot remove '/etc/nginx/sites-enabled/default*': No such file or directory
 
 
-
-# Tutorial-yiimp-mining-pool-2022-2023-working
-Tutorial yiimp 2022 working
-###### Discord: https://discord.gg/K5KVvgm7v7
-###### - If this tutorial helped you, make a contribution
-Bitcoin Address QR Code            |  Ethereum Address QR Code         |  Litecoin Address QR Code
-:-------------------------:|:-------------------------:|:-------------------------:
-![Bitcoin Address](https://i.imgur.com/4rnaYNY.png)  |  ![Ethereum Address](https://i.imgur.com/0tJ6Dzu.png) | ![Litecoin Address](https://i.imgur.com/6tvGj4r.png)
-
+# Tutorial-yiimp-mining-pool-2022-2024-working
+Tutorial yiimp 2024 working 
+ 
+ 
 **BTC**: 1Ljwbwd6Z2UDkscDroHdnave1hzmjApmCD  (BTC)
 
 **ETH**: 0x935437ad8a2289807319e2da6b68e4299676f9bf  (ERC20)
@@ -31,7 +26,7 @@ Bitcoin Address QR Code            |  Ethereum Address QR Code         |  Liteco
 #### 1 - install git, curl, make, and gcc
 ```
 sudo apt update -y
-sudo apt install git curl make build-essential -y
+sudo apt install git curl make build-essential nginx -y
 sudo apt update -y
 ```
 #### 1.2 - Use no-ip for domain (optional)
