@@ -29,6 +29,13 @@ sudo apt update -y
 sudo apt install git curl make build-essential nginx -y
 sudo apt update -y
 ```
+### 1.1 Start the Nginx service.
+
+```
+sudo service nginx start
+```
+Verify the the path includes a default file. 
+sudo ls /etc/nginx/sites-enabled/
  
 1.2 - After the make install command, it will request your noip email and password, after that just choose your update options, and your noip is ready to go.
 
