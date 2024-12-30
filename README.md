@@ -29,14 +29,7 @@ sudo apt update -y
 sudo apt install git curl make build-essential nginx -y
 sudo apt update -y
 ```
-#### 1.2 - Use no-ip for domain (optional)
-```
-cd /usr/local/src/
-sudo wget http://www.noip.com/client/linux/noip-duc-linux.tar.gz
-sudo tar xf noip-duc-linux.tar.gz
-cd noip-2.1.9-1/
-sudo make install
-```
+ 
 1.2 - After the make install command, it will request your noip email and password, after that just choose your update options, and your noip is ready to go.
 
 #### 2 - Download a reliable yiimp installer. I recommend using yiimp Dirty Harry (if you use another, replace the command below with the installer of your choice)
